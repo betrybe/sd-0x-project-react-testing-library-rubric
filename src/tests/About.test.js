@@ -12,15 +12,6 @@ describe('Testing structure About.js', () => {
     expect(phrase).toBeInTheDocument();
   });
 
-  it('Testa se a página contém um heading h2 com o texto About Pokédex', () => {
-    const { getByText, history } = renderWithRouter(<App />);
-
-    history.push('/about');
-
-    const phrase = getByText(/About Pokédex/);
-    expect(phrase).toBeInTheDocument();
-  });
-
   it('Testa se a página contém dois parágrafos com texto sobre a Pokédex', () => {
     const { container, history } = renderWithRouter(<App />);
 

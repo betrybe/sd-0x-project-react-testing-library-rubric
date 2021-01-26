@@ -3,6 +3,30 @@
     {
       "description": "Testing structure About.js",
       "bonus": false
+    },
+    {
+      "description": "About mutation test",
+      "bonus": false
+    },
+    {
+      "description": "PokemonDetails mutation test",
+      "bonus": false
+    },
+    {
+      "description": "FavoritePokemons mutation test",
+      "bonus": false
+    },
+    {
+      "description": "Pokedex mutation test",
+      "bonus": false
+    },
+    {
+      "description": "NotFound mutation test",
+      "bonus": false
+    },
+    {
+      "description": "Pokemon mutation test",
+      "bonus": false
     }
   ]
 }
